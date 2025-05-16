@@ -1,8 +1,17 @@
 <header>
-    <div class="logo">
-        <a href="<%- config.root %>"><i class="logo-icon fa <%- logoIcon ? logoIcon : theme.fa_logo %>" aria-hidden="true"></i></a>
-        <% if(headerTitle) { %>
-            <h1 id="main-title" class="title"><%- headerTitle %></h1>
-        <% } %>
-    </div>
+  <div class="logo">
+    <a href="<%- config.root %>"
+      ><i
+        class="logo-icon fa <%- logoIcon ? logoIcon : theme.fa_logo %>"
+        aria-hidden="true"></i
+    ></a>
+    <% if(headerTitle) { %>
+    <h1 id="main-title" class="title"><%- headerTitle %></h1>
+    <% } %>
+  </div>
+  <div style="position: absolute; top: 10px; left: 10px; z-index: 999">
+    <a href="/">
+      <img src="/Users/dongyasong/Desktop/pyth/work/song/themes/alpha-dust/source/img/cat.png" alt="Cat Logo" style="height: 50px" />
+    </a>
+  </div>
 </header>
